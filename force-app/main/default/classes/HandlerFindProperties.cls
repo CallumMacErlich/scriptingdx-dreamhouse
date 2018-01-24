@@ -1,5 +1,7 @@
 public class HandlerFindProperties implements BotHandler {
-
+	
+    //Testing adding comments to this class.
+    //
     private String formatCurrency(Decimal i) {
         if (i == null) return '0.00';
         i = Decimal.valueOf(Math.roundToLong(i * 100)) / 100;
